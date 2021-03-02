@@ -19,6 +19,14 @@ fn test_hasher_strings() {
 }
 
 #[wasm_bindgen_test]
+fn test_hasher_strings2() {
+    let js_value = JsValue::from_str("foo");
+    let hashed = hasher(js_value);
+
+    assert_eq!(JsValue::from_f64(4506850079084803000f64), hashed)
+}
+
+#[wasm_bindgen_test]
 fn test_hasher_numbers() {
     let js_value = JsValue::from_f64(42f64);
     let hashed = hasher(js_value);
