@@ -1,4 +1,4 @@
-use wasm_bindgen::prelude::{JsValue, wasm_bindgen};
+use wasm_bindgen::prelude::*;
 use std::{collections::hash_map::DefaultHasher, hash::{Hash, Hasher}};
 
 // When the `wee_alloc` feature is enabled, use `wee_alloc` as the global

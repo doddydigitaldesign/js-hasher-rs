@@ -1,6 +1,6 @@
 [package]
 name = "js-hasher-rs"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Daniel Sonne Lehnberg <doddy@doddy.se>"]
 edition = "2018"
 categories = ["wasm"]
